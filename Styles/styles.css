@@ -19,8 +19,13 @@ nav button a{
 }
 
 /* shared style */
-.text-primary{
-
+.section-2-title{
+    font-size: 38;
+    font-weight: bold;
+    color: #252432;
+}
+.section-2-bg{
+    background-color: #f0ddfc;
 }
 /* header */
 .header{
@@ -93,4 +98,29 @@ nav{
     width: 403px;
     height: 328px;
     border-radius: 40px;
+}
+/* productive users section */
+.productive{
+    border-radius: 15px;
+    margin: 116px 159px 137px 141px;
+    padding: 50px 142px;
+    text-align: center;
+}
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-data{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.item-subtitle{
+    font-size: 20px;
+    color: #00000075;
 }
