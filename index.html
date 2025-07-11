@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/styles.css">
 </head>
-<body class="raleway-normal">
+<body class="raleway-normal bg-color">
     <header class="header">
         <nav>
             <h3 class="inter-normal ">Mr.CHIPS</h3>
@@ -20,7 +20,7 @@
             <a href=""><button class="btn">Stay Focused</button></a>
         </div>
     </header>
-    <main>
+    <main class="bg-color">
         <section>
             <div class="banner-2">
                 <div class="banner-2-content">
@@ -119,7 +119,23 @@
  </section>
     </main>
     <footer>
+        <div class="footer-column">
+            <h3 class="footer-title">Let’s Get in Touch</h3>
+        </div>
+        <div class="footer-column-2">
+  <form action="">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com">
 
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="full name">
+
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="80" rows="20" placeholder="write your message...."></textarea>
+
+    <input class="button-form" type="submit" value="Get in Touch">
+  </form>
+</div>
     </footer>
 </body>
 </html>

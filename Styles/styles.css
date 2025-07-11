@@ -173,7 +173,7 @@ nav{
 }
 
 .feedbacks{
-    background-color: #f2eded4b;
+    background-color: #ffffffb7;
     border-radius: 14px;
     width: 100%;
     padding: 24px 24px;
@@ -228,6 +228,8 @@ nav{
     font-size: 50px;
     font-weight: bold;
     color: #000000;
+    padding: 40px 0px 0px 0px;
+    margin: 20px;
 }
 .section-4-description{
     color: #0000009d;
@@ -245,5 +247,67 @@ nav{
     align-items: center;
     justify-content: center;
     margin: 137px 151px ;
+    background-color: white;
+    padding: 30px 20px 20px 20px;
+}
+.bg-color{
     background-color: #dff5ff;
+}
+.footer-column {
+    font-size: 97px;
+    font-weight: bold;
+    width: 50%;
+}
+
+footer {
+    padding: 200px 150px;
+    display: flex;
+    justify-content: space-between
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+    height: 60px;
+    width: 497px;
+    display: block;
+    font-size: 20px;
+    margin: 19px 0;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+ textarea{
+    height: 60px;
+    width: 497px;
+    display: block;
+    font-size: 20px;
+    margin: 19px 0;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
+}
+
+.button-form {
+    background-color: #4E47FF;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    width: 497px;
+    margin: 15px 0;
+}
+
+.button-form:hover {
+    background-color: darkorange;
+}
+
+.footer-column-2 {
+    width: 50%;
 }
