@@ -62,7 +62,7 @@ nav{
 
 }
 .banner-heading{
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 700;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-optical-sizing: auto;
@@ -75,7 +75,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 /* header-2 */
 .header-2{
@@ -144,4 +144,70 @@ nav{
 .item-subtitle{
     font-size: 20px;
     color: #00000075;
+}
+.section-3-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* feedback section */
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.feedbacks {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.feedbacker-picnamedate {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.feedbacker-image {
+    border-radius: 50%;
+}
+
+.feedbacker-namedate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.2;
+    gap: 0;
+    color: #757575;
+}
+
+.feedbacker-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.date {
+    margin: 0;
+    font-size: 12px;
+    color: #757575;
+}
+
+.feedback-subtitile {
+    margin-bottom: 0;
+}
+
+.feedback-description {
+    margin-bottom: 8%;
 }
