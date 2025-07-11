@@ -59,7 +59,11 @@ nav{
     border-radius: 10px;
     border: none;
     margin: 0 auto;
-
+}
+.btn:hover{
+    background-color: darkorange;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .banner-heading{
     font-size: 75px;
