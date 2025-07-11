@@ -26,6 +26,9 @@ nav button a{
     font-weight: bold;
     color: #252432;
 }
+.text-center{
+    text-align: center;
+}
 .section-2-bg{
     background-color: #f0ddfc;
 
@@ -164,8 +167,8 @@ nav{
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto 137px auto;
+    max-width: 100%;
+    margin: 137px 149px 137px 151px;
     padding: 0px 150px;
 }
 
@@ -216,4 +219,31 @@ nav{
 
 .feedback-description {
     margin-bottom: 8%;
+}
+/* section-4-styles */
+.join-us{
+    
+}
+.section-4-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.section-4-description{
+    color: #0000009d;
+    margin: 0px 0px 20px 0px;
+}
+.section-4-bg{
+    width: 800px;
+    border-radius: 48px;
+    margin: 30px 150px 93px 151px;
+    
+}
+.section-4-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 137px 151px ;
+    background-color: #dff5ff;
 }
